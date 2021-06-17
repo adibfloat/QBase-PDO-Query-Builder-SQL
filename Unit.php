@@ -15,7 +15,7 @@
 require_once 'src/QBase.php';
 require_once 'src/Config.php';
 
-$data = $db->table('mahasiswa')->select(['nama', 'alamar'])->get();
+$data = $db->table('mahasiswa')->select(['nama', 'alamat'])->get();
 
 echo '<pre>';
 print_r($data);
